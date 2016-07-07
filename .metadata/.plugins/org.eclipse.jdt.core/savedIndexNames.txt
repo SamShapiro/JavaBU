@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+C:\Users\Samuel Shapiro\Code\JavaBU\.metadata\.plugins\org.eclipse.jdt.core
-3263404496.index
-2126834807.index
-1119640742.index
