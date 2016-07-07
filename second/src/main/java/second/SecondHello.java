@@ -3,8 +3,6 @@ package second;
 public class SecondHello {
 	private int age;
 	
-	private char ch;
-	
 	public static void main(String[] args) {
 		SecondHello secondHello = new SecondHello();
 		secondHello.setAge(88);
