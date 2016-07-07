@@ -514,3 +514,7 @@ java.io.InvalidClassException: org.eclipse.m2e.core.internal.project.registry.Ba
 2016-07-06 19:47:43,296 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Samuel Shapiro\Code\JavaBU\second\src\main\resources
 2016-07-06 19:47:43,304 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-07-06 19:47:43,310 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Samuel Shapiro\Code\JavaBU\second\src\test\resources
+2016-07-06 19:59:33,988 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-07-06 19:59:33,989 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Samuel Shapiro\Code\JavaBU\second\src\main\resources
+2016-07-06 19:59:33,999 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-07-06 19:59:34,005 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Samuel Shapiro\Code\JavaBU\second\src\test\resources

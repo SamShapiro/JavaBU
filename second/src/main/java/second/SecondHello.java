@@ -7,6 +7,7 @@ public class SecondHello {
 		SecondHello secondHello = new SecondHello();
 		secondHello.setAge(88);
 		System.out.format("Hello World, I am %d years old.", secondHello.getAge());
+		char ch = 'a';
 	}
 	
 	private int getAge() {
