@@ -1,6 +1,9 @@
 package compare;
 
 import static org.junit.Assert.*;
+
+import java.util.Scanner;
+
 import org.junit.Test;
 
 /**
@@ -33,5 +36,13 @@ public class ComparatorTest {
 		String f = "b";
 		String s = "a";
 		assertTrue(f.compareTo(s) > 0);
+	}
+	
+	@Test
+	public void showEdgeCaseOnScanner() {
+		Scanner s = new Scanner(System.in);
+		int result = s.nextInt();
+		assertTrue(result > 0);
+		s.close();
 	}
 }
