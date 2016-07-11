@@ -9,11 +9,12 @@ public class PigLatin147 {
 		Scanner reader = new Scanner(System.in);
 		String phrase = getSentence(reader);
 		convertToPigLatin(phrase);
+		reader.close();
 	}
 	
 	//method getSentence gets input from user
 	private static String getSentence(Scanner reader) {
-		System.out.println("Enter a sentence to convert: ");
+		System.out.print("Enter a sentence to convert: ");
 		String phrase = reader.nextLine(); //nextLine() gets the whole input, not just the first word
 		return phrase;
 	}
