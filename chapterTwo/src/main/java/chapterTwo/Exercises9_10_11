@@ -1,0 +1,48 @@
+Sam Shapiro
+CS 232 - Programming with Java
+Homework 1 -  Chapter 2,  Exercises 2.9, 2.10, 2.11
+
+2.9 State whether each of the following is true or false. If false, explain why.
+a) Java operators are evaluated from left to right.
+	-FALSE - the equals sign (=) is evaluated right to left.
+	
+b) The following are all valid variable names: _under_bar_, m928134, t5, j7, her_sales$,
+his_$account_total, a, b$, c, z and z2.
+	-TRUE (it is conventional to start with a letter and avoid "_" and "$", they are still valid)
+
+c) A valid Java arithmetic expression with no parentheses is evaluated from left to right.
+	-FALSE - Exponents are evaluated before multiplication/division, 
+	which are evaluated before addition/subtraction, regardless of left to right.
+
+d) The following are all invalid variable names: 3g, 87, 67h2, h22 and 2h.
+	-FALSE - "h22" is a valid variable name
+
+
+
+
+2.10 Assuming that x = 2 and y = 3, what does each of the following statements display?
+a) System.out.printf("x = %d%n", x);
+	-Displays "x = 2"
+	
+b) System.out.printf("Value of %d + %d is %d%n", x, x, (x + x));
+	-Displays "Value of 2 + 2 is 4"
+	
+c) System.out.printf("x =");
+	-Displays "x = "
+
+d) System.out.printf("%d = %d%n", (x + y), (y + x));
+	-Displays "5 = 5"
+
+
+2.11 Which of the following Java statements contain variables whose values are modified?
+a) p = i + j + k + 7;
+	-"p" is modified to be equivalent to the other variables plus seven
+
+b) System.out.println("variables whose values are modified");
+	-literally yes, but for the purposes of the questions intent, no modified variables
+
+c) System.out.println("a = 5");
+	-No modified variables ("a" isn't a variable here, it's just part of the output)
+
+d) value = input.nextInt();
+	-"value" is modified to be the user's input
