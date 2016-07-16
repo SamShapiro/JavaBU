@@ -1,0 +1,32 @@
+Homework 2, Chapter 4, Exercise 25
+
+Q: What does the following program print?
+
+ // Exercise 4.25: Mystery2.java
+2 	public class Mystery2
+3 	{
+4 		public static void main(String[] args)
+5 		{
+6 			int count = 1;
+7
+8 			while (count <= 10)
+9 			{
+10 				System.out.println(count % 2 == 1 ? "****" : "++++++++");
+11 				++count;
+12 			}
+13 		}
+14 	} // end class Mystery2
+
+Answer: For each number between 1 through 10, the program will check if it is odd. If it is, 
+		it will print "****". If it's even, it will print "++++++++". Therefore, the program
+		will print the following:
+		****
+		++++++++
+		****
+		++++++++
+		****
+		++++++++
+		****
+		++++++++
+		****
+		++++++++

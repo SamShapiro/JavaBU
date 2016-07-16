@@ -1,0 +1,37 @@
+Homework 2, Chapter 4, Exercise 16 - Mystery Print
+
+Question: What does the following program print?
+
+1 // Exercise 4.16: Mystery.java
+2 	public class Mystery
+3 	{
+4 		public static void main(String[] args)
+5 		{
+6 			int x = 1;
+7 			int total = 0;
+8
+9 			while (x <= 10)
+10 			{
+11 				int y = x * x;
+12 				System.out.println(y);
+13 				total += y;
+14 				++x;
+15 				}
+16
+17 			System.out.printf("Total is %d%n", total);
+18 		}
+19 } // end class Mystery
+
+Answer: For each number, 1 through 10, the program prints the square of that number, then the
+		total of each square. Therefore, it prints the following:
+		1
+		4
+		9
+		16
+		25
+		36
+		49
+		64
+		81
+		100
+		Total is 385
