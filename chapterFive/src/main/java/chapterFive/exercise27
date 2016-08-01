@@ -1,0 +1,38 @@
+Homework 2, Chapter 5, Exercise 27
+
+Q: What does the following program do?
+
+	for (i = 1; i <= 5; i++)
+	{
+ 		for (j = 1; j <= 3; j++)
+ 		{
+ 			for (k = 1; k <= 4; k++)
+ 				System.out.print('*');
+ 			System.out.println();
+ 		} // end inner for
+ 	System.out.println();
+	} // end outer for
+	
+A:  This program prints out four asterisks in a row, then repeats that three
+	times on individual lines. It then skips a line and repeats, 5 times.
+	Therefore, it prints out the following:
+	****
+	****
+	****
+	
+	****
+	****
+	****
+	
+	****
+	****
+	****
+	
+	****
+	****
+	****
+	
+	****
+	****
+	****
+	
