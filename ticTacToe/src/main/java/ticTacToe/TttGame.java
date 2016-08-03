@@ -1,5 +1,6 @@
 package ticTacToe;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -11,14 +12,15 @@ import java.util.Scanner;
 
 public class TttGame {
 	static Scanner scanner; //scanner is used to get input on placement from users
+	private Scanner scan; //scanner used to fix errors in input
 	
-	private enum Fill {EMPTY, X, O, TIE} //enum Fill places either an X or an O in a cell
+	public enum Fill {EMPTY, X, O, TIE} //enum Fill places either an X or an O in a cell
 	
 	private int size; //determines size of the board. defaults to 3
 	private Fill[][] board; // the board is an array of Fills (X's and O's)
 	private Fill winner; //determines winner of game
 	private String placement; //input String for places a Fill
-	private int[] pos; //int version of placement
+	public int[] pos; //int version of placement
 	
 	/**
 	 * Constructor. Defaults to a 3x3 game with no winner.
@@ -29,18 +31,23 @@ public class TttGame {
 		setWinner(Fill.EMPTY);
 	}
 	
+	/**
+	 * Constructor with variable board size.
+	 * @param size - size of board
+	 */
+	public TttGame(int size) {
+		setSize(size);
+		setBoard(getSize());
+		setWinner(Fill.EMPTY);
+	}
+	
 	public static void main(String[] args) {
 		TttGame game = new TttGame();
 		scanner = new Scanner(System.in);
-		int turnCount = 0;
+		int turnCount = 0; //used to check if board is full
 		do { //until a winner is determined, keep asking for placements
 			game.printBoard();
-			System.out.print("Player 1, enter a row/column position: ");
-			game.placement = scanner.nextLine();
-			game.pos = game.getPos(game.placement); //user input is verified in getPos
-			
-			game.getBoard()[game.pos[0]][game.pos[1]] = Fill.X;
-			game.checkWin(game.pos[0], game.pos[1]);
+			game.askPlayer(1, scanner);
 			turnCount++;
 			
 			System.out.print("\n\n\n\n\n\n"); //prints a bunch of empty lines to "clear" the console
@@ -53,11 +60,7 @@ public class TttGame {
 			
 			//repeats the above placement, but with O instead of X
 			game.printBoard();
-			System.out.print("Player 2, enter a row/column position: ");
-			game.placement = scanner.nextLine();
-			game.pos = game.getPos(game.placement);
-			game.getBoard()[game.pos[0]][game.pos[1]] = Fill.O;
-			game.checkWin(game.pos[0], game.pos[1]);
+			game.askPlayer(2, scanner);
 			turnCount++;
 			
 			System.out.print("\n\n\n\n\n\n");
@@ -74,9 +77,35 @@ public class TttGame {
 		else {
 			System.out.printf("Player %s wins!%n",
 					(game.getWinner().equals(Fill.X) ? "1" : "2")); //if winner is X, player 1 wins
-			scanner.close();										//if winner is ), player 2 wins
-
+																	//if winner is O, player 2 wins
 		}
+		game.closeScanners();
+	}
+	
+	/**
+	 * method used to close all open scanners at end of game
+	 */
+	public void closeScanners() {
+		scanner.close();
+		try { //if scan was never opened, don't close it
+			scan.close();
+		}
+		catch(NullPointerException npe) {
+		}
+	}
+	
+	/**
+	 * Method used to get player input
+	 * @param player - either 1 or 2, depending on whose turn it is
+	 * @param scan - scanner used for input
+	 */
+	public void askPlayer(int player, Scanner scan) {
+		System.out.printf("Player %d, enter a row/column position: ", player);
+		placement = scan.nextLine();
+		pos = setPos(placement);
+		
+		getBoard()[pos[0]][pos[1]] = (player == 1 ? Fill.X : Fill.O);
+		checkWin(pos[0], pos[1]);
 	}
 	
 	/**
@@ -84,7 +113,8 @@ public class TttGame {
 	 * @param place - String of user input
 	 * @return pos[] as int array version of input
 	 */
-	public int[] getPos(String place) {
+	public int[] setPos(String place) {
+		scan = new Scanner(System.in); //scan is used for additional inputs if error is found
 		String[] arr = place.split(" "); //splits input into String numbers
 		int count = arr.length;
 		int[] pos = new int[count];
@@ -95,8 +125,8 @@ public class TttGame {
 			//if input isn't actually a number, asks user to replace with a number
 			catch(NumberFormatException nfe){
 				System.out.printf("'%s' is not a number. Please enter a single coordinate: ", arr[i]);
-				String retry = scanner.nextLine();
-				arr[i] = retry;
+				placement = scan.nextLine();
+				arr[i] = placement;
 				i = -1;
 			}
 		}
@@ -104,22 +134,22 @@ public class TttGame {
 		//if there aren't 2 coordinates (row and column), gets new input
 		if (pos.length != 2){ 
 			System.out.print("Incorrect number of coordinates. Try again: ");
-			String retry = scanner.nextLine();
-			pos = getPos(retry);
+			placement = scan.nextLine();
+			pos = setPos(placement);
 		}
 		
 		//if row and column aren't in valid size range, gets new input
 		if (pos[0] < 0 || pos[0] > getSize()-1 || pos[1] < 0 || pos[1] > getSize()-1) {
 			System.out.print("That is not a valid space. Try again: ");
-			String retry = scanner.nextLine();
-			pos = getPos(retry);
+			placement = scan.nextLine();
+			pos = setPos(placement);
 		}
 		
 		//if attempting to place in a non-empty spot, gets new input
 		if (getBoard()[pos[0]][pos[1]] != Fill.EMPTY) {
 			System.out.print("That space is already filled. Try again: ");
-			String retry = scanner.nextLine();
-			pos = getPos(retry);
+			placement = scan.nextLine();
+			pos = setPos(placement);
 		}
 		return pos;
 	}
@@ -164,6 +194,7 @@ public class TttGame {
 		switch (content) {
 		case X: System.out.print(" X "); break;
 		case O: System.out.print(" O "); break;
+		case TIE: System.out.print(" T "); break;
 		default: System.out.print("   ");
 		}
 	}
@@ -252,10 +283,10 @@ public class TttGame {
 	}
 	public void setBoard(int size) {
 		this.board = new Fill[size][size];
+		
+		//fills the board with EMPTYs
 		for (Fill[] row : board) {
-			for (int i = 0; i < row.length; i++) {
-				row[i] = Fill.EMPTY; //initializes board to be filled with EMPTY enum
-			}
+			Arrays.fill(row, Fill.EMPTY);
 		}
 	}
 
@@ -271,4 +302,5 @@ public class TttGame {
 	public void setWinner(Fill winner) {
 		this.winner = winner;
 	}
+
 }
