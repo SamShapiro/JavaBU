@@ -3,7 +3,7 @@ package ticTacToe;
 import java.util.Scanner;
 
 /**
- * Super Tic Tac Toe game extends basic Tic Tac Toe.
+ * Super Tic Tac Toe game for 2 players extends basic Tic Tac Toe.
  * 
  * In ST3, each "cell" of the game board contains a smaller board.
  * When a player makes a move, the next player moves to the "supercell"
@@ -19,11 +19,11 @@ import java.util.Scanner;
  *
  */
 
-public class SuperTicTacToe extends TttGame {
+public class SuperTicTacToe extends TicTacToeGame {
 
 	static Scanner scanner; //scanner used to get input
-	private TttGame[][] superBoard; //game board containing a 3x3 of Tic Tac Toe games
-	private TttGame currCell; //currently active subgame
+	private TicTacToeGame[][] superBoard; //game board containing a 3x3 of Tic Tac Toe games
+	private TicTacToeGame currCell; //currently active subgame
 	private int[] superPos; //coordinates of current active subgame
 	
 	/**
@@ -66,7 +66,7 @@ public class SuperTicTacToe extends TttGame {
 				break;
 			
 			//moves the current cell to the equivalent of player 1's move
-			game.setCurrCell(game.currCell.pos);
+			game.setCurrCell(game.currCell.getPos());
 			while (game.getCurrCell().getWinner() != Fill.EMPTY) {
 				game.printBoard();
 				System.out.print("That cell is complete. Choose somewhere else to move to: ");
@@ -77,7 +77,7 @@ public class SuperTicTacToe extends TttGame {
 			//repeats as above, for player 2
 			game.printBoard();
 			game.getCurrCell().askPlayer(2, scanner);
-			game.setCurrCell(game.currCell.pos);
+			game.setCurrCell(game.currCell.getPos());
 			
 			System.out.print("\n\n\n\n\n\n");
 			game.checkSuperWin();
@@ -170,7 +170,7 @@ public class SuperTicTacToe extends TttGame {
 	 * method to check current supercell's row for win
 	 */
 	private void checkSuperRow() {
-		for (TttGame box : superBoard[superPos[0]]) {
+		for (TicTacToeGame box : superBoard[superPos[0]]) {
 			if (box.getWinner() != currCell.getWinner())
 				return;
 		}
@@ -181,7 +181,7 @@ public class SuperTicTacToe extends TttGame {
 	 * method to check current supercell's column for win
 	 */
 	private void checkSuperCol() {
-		for (TttGame[] box : superBoard) {
+		for (TicTacToeGame[] box : superBoard) {
 			if (box[superPos[1]].getWinner() != currCell.getWinner())
 				return;
 		}
@@ -216,14 +216,14 @@ public class SuperTicTacToe extends TttGame {
 	 * Setter takes in a size, then creates a size x size game, with
 	 * each cell containing a size x size subgame
 	 */
-	public TttGame[][] getSuperBoard() {
+	public TicTacToeGame[][] getSuperBoard() {
 		return superBoard;
 	}
 	public void setSuperBoard(int size) {
-		this.superBoard = new TttGame[size][size];
+		this.superBoard = new TicTacToeGame[size][size];
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
-				superBoard[i][j] = new TttGame(size); //places a game in each cell
+				superBoard[i][j] = new TicTacToeGame(size); //places a game in each cell
 				superBoard[i][j].setBoard(size); //defaults each game to be filled with EMPTY's
 			}
 			
@@ -235,7 +235,7 @@ public class SuperTicTacToe extends TttGame {
 	 * setter takes a string input then converts it to an int[] with setPos(),
 	 * then puts that through second setter to turn input into coordinates
 	 */
-	public TttGame getCurrCell() {
+	public TicTacToeGame getCurrCell() {
 		return currCell;
 	}
 	public void setCurrCell(String input) {

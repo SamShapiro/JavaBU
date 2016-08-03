@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  */
 
-public class TttGame {
+public class TicTacToeGame {
 	static Scanner scanner; //scanner is used to get input on placement from users
 	private Scanner scan; //scanner used to fix errors in input
 	
@@ -20,12 +20,13 @@ public class TttGame {
 	private Fill[][] board; // the board is an array of Fills (X's and O's)
 	private Fill winner; //determines winner of game
 	private String placement; //input String for places a Fill
-	public int[] pos; //int version of placement
+	private int[] pos; //int version of placement
+	public int turnCount;
 	
 	/**
 	 * Constructor. Defaults to a 3x3 game with no winner.
 	 */
-	public TttGame() {
+	public TicTacToeGame() {
 		setSize(3);
 		setBoard(getSize());
 		setWinner(Fill.EMPTY);
@@ -35,24 +36,24 @@ public class TttGame {
 	 * Constructor with variable board size.
 	 * @param size - size of board
 	 */
-	public TttGame(int size) {
+	public TicTacToeGame(int size) {
 		setSize(size);
 		setBoard(getSize());
 		setWinner(Fill.EMPTY);
 	}
 	
 	public static void main(String[] args) {
-		TttGame game = new TttGame();
+		TicTacToeGame game = new TicTacToeGame();
 		scanner = new Scanner(System.in);
-		int turnCount = 0; //used to check if board is full
+		game.setTurnCount(0); //used to check if board is full
 		do { //until a winner is determined, keep asking for placements
 			game.printBoard();
 			game.askPlayer(1, scanner);
-			turnCount++;
+			game.setTurnCount(game.getTurnCount()+1);
 			
 			System.out.print("\n\n\n\n\n\n"); //prints a bunch of empty lines to "clear" the console
 			
-			if (turnCount == game.getSize() * game.getSize()) //if all spaces have been filled, game is a Tie
+			if (game.getTurnCount() == game.getSize() * game.getSize()) //if all spaces have been filled, game is a Tie
 				game.setWinner(Fill.TIE);
 			
 			if (game.getWinner() != Fill.EMPTY) //if player 1 wins, don't ask player 2
@@ -61,11 +62,11 @@ public class TttGame {
 			//repeats the above placement, but with O instead of X
 			game.printBoard();
 			game.askPlayer(2, scanner);
-			turnCount++;
+			game.setTurnCount(game.getTurnCount()+1);
 			
 			System.out.print("\n\n\n\n\n\n");
 			
-			if (turnCount == game.getSize() * game.getSize())
+			if (game.getTurnCount() == game.getSize() * game.getSize())
 				game.setWinner(Fill.TIE);
 			
 			
@@ -104,6 +105,13 @@ public class TttGame {
 		placement = scan.nextLine();
 		pos = setPos(placement);
 		
+		//if attempting to place in a non-empty spot, gets new input
+		while (getBoard()[pos[0]][pos[1]] != Fill.EMPTY) {
+			System.out.print("That space is already filled. Try again: ");
+			placement = scan.nextLine();
+			pos = setPos(placement);
+		}
+		
 		getBoard()[pos[0]][pos[1]] = (player == 1 ? Fill.X : Fill.O);
 		checkWin(pos[0], pos[1]);
 	}
@@ -140,17 +148,13 @@ public class TttGame {
 		
 		//if row and column aren't in valid size range, gets new input
 		if (pos[0] < 0 || pos[0] > getSize()-1 || pos[1] < 0 || pos[1] > getSize()-1) {
-			System.out.print("That is not a valid space. Try again: ");
+			System.out.print("That is not a valid row/column space. Try again: ");
 			placement = scan.nextLine();
 			pos = setPos(placement);
 		}
 		
-		//if attempting to place in a non-empty spot, gets new input
-		if (getBoard()[pos[0]][pos[1]] != Fill.EMPTY) {
-			System.out.print("That space is already filled. Try again: ");
-			placement = scan.nextLine();
-			pos = setPos(placement);
-		}
+		
+
 		return pos;
 	}
 	
@@ -194,7 +198,7 @@ public class TttGame {
 		switch (content) {
 		case X: System.out.print(" X "); break;
 		case O: System.out.print(" O "); break;
-		case TIE: System.out.print(" T "); break;
+		case TIE: System.out.print(" T "); break; //only used in SuperTicTacToe
 		default: System.out.print("   ");
 		}
 	}
@@ -301,6 +305,18 @@ public class TttGame {
 	}
 	public void setWinner(Fill winner) {
 		this.winner = winner;
+	}
+	
+	public int[] getPos() {
+		return pos;
+	}
+
+	public int getTurnCount() {
+		return turnCount;
+	}
+
+	public void setTurnCount(int turnCount) {
+		this.turnCount = turnCount;
 	}
 
 }
