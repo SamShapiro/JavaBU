@@ -1,0 +1,595 @@
+Avatar	PG-13	162
+Titanic	PG-13	194
+The Avengers	PG-13	143
+The Dark Knight	PG-13	152
+Star Wars	PG	121
+The Dark Knight Rises	PG-13	165
+Shrek 2	PG	92
+E.T. the Extra-Terrestrial	PG	115
+Star Wars: Episode I - The Phantom Menace	PG	133
+Pirates of the Caribbean: Dead Man's Chest	PG-13	150
+Toy Story 3	G	103
+The Hunger Games	PG-13	142
+Spider-Man	PG-13	121
+Transformers: Revenge of the Fallen	PG-13	150
+Harry Potter and the Deathly Hallows: Part 2	PG-13	130
+Star Wars: Episode III - Revenge of the Sith	PG-13	140
+"Lord of the Rings: The Return of the King, The"	PG-13	201
+Spider-Man 2	PG-13	127
+"Passion of the Christ, The"	R	127
+Jurassic Park	PG-13	127
+Transformers: Dark of the Moon	PG-13	157
+"Lord of the Rings: The Two Towers, The"	PG-13	179
+Finding Nemo	G	100
+Spider-Man 3	PG-13	140
+Alice in Wonderland	PG	108
+Forrest Gump	PG-13	142
+"Lion King, The"	G	89
+Shrek the Third	PG	92
+Transformers	PG-13	144
+Iron Man	PG-13	126
+Harry Potter and the Sorcerer's Stone	PG	152
+Indiana Jones and the Kingdom of the Crystal Skull	PG-13	122
+"Lord of the Rings: The Fellowship of the Ring, The"	PG-13	178
+Iron Man 2	PG-13	124
+Star Wars: Episode II - Attack of the Clones	PG	143
+Pirates of the Caribbean: At World's End	PG-13	168
+Star Wars: Episode VI - Return of the Jedi	PG	134
+Independence Day	PG-13	145
+Pirates of the Caribbean: The Curse of the Black Pearl	PG-13	143
+Harry Potter and the Half-Blood Prince	PG	153
+The Twilight Saga: Eclipse	PG-13	124
+New Moon	PG-13	130
+Harry Potter and the Deathly Hallows: Part 1	PG-13	146
+"Sixth Sense, The"	PG-13	107
+Up	PG	96
+Inception	PG-13	148
+Harry Potter and the Order of the Phoenix	PG-13	138
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe"	PG	140
+Star Wars: Episode V - The Empire Strikes Back	PG	124
+Harry Potter and the Goblet of Fire	PG-13	157
+Home Alone	PG	103
+"Matrix Reloaded, The"	R	138
+The Twilight Saga: Breaking Dawn - Part 1	PG-13	117
+Meet the Fockers	PG-13	115
+The Hangover	R	100
+Shrek	PG	90
+Harry Potter and the Chamber of Secrets	PG	161
+The Incredibles	PG	115
+The Amazing Spider-Man	PG-13	136
+How the Grinch Stole Christmas	PG	104
+Jaws	PG	124
+Star Trek	PG-13	127
+I Am Legend	PG-13	101
+The Blind Side	PG-13	129
+"Monsters, Inc."	G	92
+The Hangover Part II	R	102
+Despicable Me	PG	95
+Batman	PG-13	126
+Night at the Museum	PG	108
+Men in Black	PG-13	98
+Harry Potter and the Prisoner of Azkaban	PG	141
+Toy Story 2	G	92
+Cars	G	124
+Bruce Almighty	PG-13	101
+Raiders of the Lost Ark	PG	115
+Twister	PG-13	113
+My Big Fat Greek Wedding	PG	96
+Pirates of the Caribbean: On Stranger Tides	PG-13	137
+Ghostbusters	PG	105
+Shrek Forever After	PG	93
+Beverly Hills Cop	R	105
+X-Men: The Last Stand	PG-13	104
+War of the Worlds	PG-13	116
+Cast Away	PG-13	143
+Brave	PG	93
+"Lost World: Jurassic Park, The"	PG-13	129
+Signs	PG-13	106
+Hancock	PG-13	92
+The Bourne Ultimatum	PG-13	111
+Rush Hour 2	PG-13	90
+WALL-E	G	98
+National Treasure: Book of Secrets	PG	124
+Alvin and the Chipmunks: The Squeakquel	PG	88
+Mrs. Doubtfire	PG-13	125
+King Kong	PG-13	187
+Ghost	PG-13	128
+The Da Vinci Code	PG-13	149
+How to Train Your Dragon	PG	98
+Aladdin	G	90
+Alvin and the Chipmunks	PG	92
+Ted	R	106
+Saving Private Ryan	R	170
+Mission: Impossible II	PG-13	123
+Kung Fu Panda	PG	92
+Madagascar 3: Europe's Most Wanted	PG	93
+X2	PG-13	133
+The Lorax	PG	86
+Austin Powers in Goldmember	PG-13	94
+Back to the Future	PG	111
+300	R	117
+Fast Five	PG-13	130
+Mission: Impossible - Ghost Protocol	PG-13	133
+Wedding Crashers	R	119
+Sherlock Holmes	PG-13	128
+Charlie and the Chocolate Factory	PG	115
+Ratatouille	G	110
+Austin Powers: The Spy Who Shagged Me	PG-13	95
+Batman Begins	PG-13	141
+Terminator 2: Judgment Day	R	137
+"Exorcist, The"	R	122
+"Mummy Returns, The"	PG-13	130
+Armageddon	PG-13	144
+Tangled	PG	100
+Superman Returns	PG-13	154
+Gone with the Wind	\N	238
+Pearl Harbor	PG-13	183
+Monsters vs Aliens	PG	94
+Happy Feet	PG	109
+Indiana Jones and the Last Crusade	PG-13	127
+Ice Age: Dawn of the Dinosaurs	PG	94
+Ice Age: The Meltdown	PG	91
+Madagascar	PG	86
+Toy Story	G	81
+Cars 2	G	106
+Twilight	PG-13	122
+Men in Black II	PG-13	88
+Gladiator	R	155
+Sherlock Holmes: A Game of Shadows	PG-13	129
+The Day After Tomorrow	PG-13	124
+Mr. & Mrs. Smith	PG-13	120
+Snow White and the Seven Dwarfs	\N	83
+Dances with Wolves	PG-13	180
+Batman Forever	PG-13	122
+"Fugitive, The"	PG-13	130
+Ocean's Eleven	PG-13	116
+The Simpsons Movie	PG-13	87
+What Women Want	PG-13	127
+"Perfect Storm, The"	PG-13	129
+Liar Liar	PG-13	86
+Grease	PG	110
+Jurassic Park III	PG-13	92
+Thor	PG-13	115
+Mission: Impossible	PG-13	110
+Planet of the Apes	PG-13	119
+Madagascar: Escape 2 Africa	PG	89
+X-Men Origins: Wolverine	PG-13	107
+Indiana Jones and the Temple of Doom	PG	118
+Men in Black 3	PG-13	106
+Pretty Woman	R	119
+Hitch	PG-13	118
+Night at the Museum: Battle of the Smithsonian	PG	105
+Tootsie	PG	119
+Top Gun	PG	110
+Rise of the Planet of the Apes	PG-13	105
+Captain America: The First Avenger	PG-13	124
+The Polar Express	G	99
+The Karate Kid	PG	140
+There's Something About Mary	R	119
+Ice Age	PG	81
+The Bourne Supremacy	PG-13	108
+Crocodile Dundee	PG-13	98
+Home Alone 2: Lost in New York	PG	120
+Elf	PG	95
+National Treasure	PG	131
+Rain Man	R	133
+Air Force One	R	124
+Apollo 13	PG	140
+TRON: Legacy	PG	127
+"Matrix, The"	R	136
+Beauty and the Beast	G	84
+Tarzan	G	88
+True Grit	PG-13	110
+"Beautiful Mind, A"	PG-13	135
+Chicago	PG-13	113
+The Help	PG-13	146
+Bridesmaids	R	125
+Quantum of Solace	PG-13	106
+Wild Hogs	PG-13	100
+Three Men and a Baby	PG	102
+Casino Royale	PG-13	144
+Meet the Parents	PG-13	108
+2012	PG-13	158
+Robin Hood: Prince of Thieves	PG-13	143
+Kung Fu Panda 2	PG	91
+Hannibal	R	131
+Catch Me If You Can	PG-13	141
+The Proposal	PG-13	108
+Big Daddy	PG-13	93
+"Sound of Music, The"	G	174
+Clash of the Titans	PG-13	106
+Batman Returns	PG-13	126
+A Bug's Life	G	96
+The Pursuit of Happyness	PG-13	117
+Grown Ups	PG-13	102
+"Waterboy, The"	PG-13	90
+Shark Tale	PG	90
+Die Another Day	PG-13	132
+"Sting, The"	PG	129
+"Firm, The"	R	154
+The Longest Yard	PG-13	113
+X-Men	PG-13	104
+Scary Movie	R	88
+Fatal Attraction	R	123
+What Lies Beneath	PG-13	130
+The Mummy	PG-13	124
+Fast & Furious	PG-13	107
+Over the Hedge	PG	83
+Fantastic Four	PG-13	106
+Horton Hears a Who!	\N	88
+Who Framed Roger Rabbit	PG	103
+Beverly Hills Cop II	R	100
+Jerry Maguire	R	138
+Scooby-Doo	PG	87
+One Hundred and One Dalmatians	G	79
+Sex and the City	R	148
+Runaway Bride	PG	116
+Rambo: First Blood Part II	R	94
+Terminator 3: Rise of the Machines	R	109
+Knocked Up	R	129
+Talladega Nights: The Ballad of Ricky Bobby	PG-13	108
+Gremlins	PG	106
+Gran Torino	R	116
+As Good As It Gets	PG-13	139
+Lethal Weapon 2	R	113
+Paul Blart: Mall Cop	PG	91
+True Lies	R	144
+Lilo & Stitch	PG	85
+American Pie 2	R	105
+Taken	PG-13	93
+"Santa Clause, The"	PG	97
+"I, Robot"	PG-13	115
+Lethal Weapon 3	R	118
+"Fast and the Furious, The"	PG-13	106
+G.I. Joe: The Rise of Cobra	PG-13	118
+Doctor Dolittle	PG-13	85
+Juno	PG-13	96
+"Jungle Book, The"	G	78
+The Chronicles of Narnia: Prince Caspian	PG	144
+Animal House	R	109
+Pocahontas	G	81
+"Few Good Men, A"	R	138
+XXX	PG-13	124
+Rush Hour	PG-13	97
+"Blair Witch Project, The"	R	86
+Deep Impact	PG-13	120
+Look Who's Talking	PG-13	93
+Rush Hour 3	PG-13	91
+Stuart Little	PG	84
+"Rocky Horror Picture Show, The"	R	100
+Sister Act	PG	100
+Mamma Mia!	PG-13	108
+"Matrix Revolutions, The"	R	129
+"Santa Clause 2, The"	G	105
+Cheaper by the Dozen	PG	98
+Bad Boys II	R	147
+Good Will Hunting	R	126
+Platoon	R	120
+Dinosaur	PG	82
+Click	PG-13	107
+"Green Mile, The"	R	188
+Ransom	R	121
+101 Dalmatians	G	103
+Godzilla	PG-13	140
+Chicken Little	G	81
+Teenage Mutant Ninja Turtles	PG	93
+Patch Adams	PG-13	115
+"Godfather, The"	R	175
+Superman	PG	143
+"Rock, The"	R	136
+Anger Management	PG-13	106
+Mission: Impossible III	PG-13	126
+Troy	R	163
+Bringing Down the House	PG-13	105
+Hulk	PG-13	138
+Minority Report	PG-13	145
+Lara Croft: Tomb Raider	PG-13	100
+"Silence of the Lambs, The"	R	118
+"Honey, I Shrunk the Kids"	PG	101
+"Flintstones, The"	PG	91
+American Beauty	R	122
+"Officer and a Gentleman, An"	R	122
+Lethal Weapon 4	R	127
+Saturday Night Fever	PG	118
+Million Dollar Baby	PG-13	132
+Ray	PG-13	152
+The Aviator	PG-13	170
+Mystic River	R	137
+Monster	R	109
+Cold Mountain	R	152
+"Pianist, The"	R	150
+"Hours, The"	PG-13	114
+Adaptation.	R	114
+Training Day	R	120
+Monster's Ball	NC-17	111
+Iris	R	91
+Erin Brockovich	R	130
+Traffic	R	147
+Pollock	R	122
+Boys Don't Cry	NC-17	118
+"Cider House Rules, The"	PG-13	126
+"Girl, Interrupted"	R	127
+Shakespeare in Love	R	122
+"Vita e bella, La"	PG-13	122
+Affliction	R	114
+L.A. Confidential	R	138
+"English Patient, The"	R	160
+Shine	PG-13	105
+Fargo	R	98
+Braveheart	R	177
+Leaving Las Vegas	R	111
+Dead Man Walking	R	122
+"Usual Suspects, The"	R	106
+Mighty Aphrodite	R	98
+Blue Sky	PG-13	101
+Ed Wood	R	127
+Bullets Over Broadway	R	98
+Schindler's List	R	197
+Philadelphia	PG-13	125
+"Piano, The"	R	121
+Unforgiven	R	131
+Scent of a Woman	R	157
+Howards End	PG	140
+My Cousin Vinny	R	120
+City Slickers	PG-13	112
+"Fisher King, The"	R	137
+Reversal of Fortune	R	111
+Misery	R	107
+Goodfellas	R	145
+Driving Miss Daisy	PG	99
+My Left Foot	R	98
+Glory	R	122
+Born on the Fourth of July	R	145
+"Accused, The"	R	111
+"Fish Called Wanda, A"	R	108
+"Accidental Tourist, The"	PG	121
+"Last Emperor, The"	PG-13	160
+Wall Street	R	125
+Moonstruck	PG	102
+"Untouchables, The"	R	119
+"Color of Money, The"	R	119
+Children of a Lesser God	R	119
+Hannah and Her Sisters	PG-13	103
+Out of Africa	PG	150
+Kiss of the Spider Woman	R	120
+"Trip to Bountiful, The"	PG	108
+Cocoon	PG-13	117
+Prizzi's Honor	R	130
+Amadeus	PG	160
+Places in the Heart	PG	112
+"Killing Fields, The"	R	141
+"Passage to India, A"	PG	163
+Terms of Endearment	PG	132
+Tender Mercies	PG	92
+"Year of Living Dangerously, The"	PG	117
+Gandhi	PG	188
+Sophie's Choice	R	150
+Chariots of Fire	PG	123
+On Golden Pond	PG	109
+Arthur	PG	97
+Reds	PG	194
+Ordinary People	R	124
+Raging Bull	R	129
+Coal Miner's Daughter	PG	125
+Melvin and Howard	R	95
+Kramer vs. Kramer	PG	105
+Norma Rae	PG	110
+Being There	PG	130
+"Deer Hunter, The"	R	183
+Coming Home	R	126
+California Suite	PG	103
+Annie Hall	PG	93
+"Goodbye Girl, The"	PG	110
+Julia	PG	118
+Rocky	PG	119
+Network	R	120
+All the President's Men	PG	138
+One Flew Over the Cuckoo's Nest	R	133
+"Sunshine Boys, The"	PG	111
+Shampoo	R	109
+"Godfather: Part II, The"	R	200
+Harry and Tonto	R	115
+Alice Doesn't Live Here Anymore	PG	112
+Murder on the Orient Express	PG	128
+Save the Tiger	R	100
+"Touch of Class, A"	PG	105
+"Paper Chase, The"	PG	112
+Paper Moon	PG	102
+Cabaret	PG	124
+Butterflies Are Free	PG	109
+"French Connection, The"	R	104
+Klute	R	114
+"Last Picture Show, The"	R	118
+Patton	M	170
+Women in Love	R	131
+Ryan's Daughter	GP	187
+Airport	G	137
+Midnight Cowboy	R	113
+True Grit	G	128
+"Prime of Miss Jean Brodie, The"	M	116
+"They Shoot Horses, Don't They?"	M	120
+Cactus Flower	M	103
+Oliver!	G	153
+Charly	PG	103
+Funny Girl	G	151
+"Subject Was Roses, The"	G	107
+Rosemary's Baby	\N	136
+In the Heat of the Night	\N	109
+Guess Who's Coming to Dinner	\N	108
+Cool Hand Luke	\N	126
+Bonnie and Clyde	M	111
+"Graduate, The"	PG	105
+"Man for All Seasons, A"	\N	120
+Who's Afraid of Virginia Woolf?	\N	134
+"Fortune Cookie, The"	\N	125
+Cat Ballou	\N	97
+Darling	\N	128
+"Thousand Clowns, A"	\N	118
+"Patch of Blue, A"	\N	105
+My Fair Lady	G	170
+Mary Poppins	G	140
+Topkapi	\N	119
+Alexis Zorbas	\N	142
+Tom Jones	\N	121
+Lilies of the Field	\N	94
+Hud	\N	112
+"V.I.P.s, The"	\N	119
+Lawrence of Arabia	PG	216
+To Kill a Mockingbird	\N	129
+"Miracle Worker, The"	\N	106
+Sweet Bird of Youth	\N	120
+West Side Story	\N	151
+Judgment at Nuremberg	\N	178
+"Ciociara, La"	\N	100
+"Apartment, The"	\N	125
+Elmer Gantry	\N	146
+BUtterfield 8	\N	109
+Spartacus	PG-13	184
+Ben-Hur	G	212
+Room at the Top	\N	115
+"Diary of Anne Frank, The"	\N	180
+Gigi	G	119
+Separate Tables	\N	100
+I Want to Live!	\N	120
+"Big Country, The"	\N	165
+"Bridge on the River Kwai, The"	PG	161
+"Three Faces of Eve, The"	\N	91
+Sayonara	\N	147
+Around the World in Eighty Days	\N	188
+"King and I, The"	G	133
+Anastasia	\N	105
+Lust for Life	\N	122
+Written on the Wind	\N	99
+Giant	G	201
+Marty	\N	91
+"Rose Tattoo, The"	\N	117
+Mister Roberts	\N	123
+East of Eden	\N	115
+On the Waterfront	\N	108
+"Country Girl, The"	\N	104
+"Barefoot Contessa, The"	\N	128
+From Here to Eternity	\N	118
+Stalag 17	\N	120
+Roman Holiday	\N	118
+"Greatest Show on Earth, The"	\N	152
+High Noon	\N	85
+"Come Back, Little Sheba"	\N	99
+Viva Zapata!	\N	113
+"Bad and the Beautiful, The"	\N	118
+"Quiet Man, The"	\N	129
+"American in Paris, An"	\N	113
+"African Queen, The"	\N	105
+"Streetcar Named Desire, A"	\N	122
+"Place in the Sun, A"	\N	122
+All About Eve	\N	138
+Cyrano de Bergerac	\N	112
+Born Yesterday	\N	103
+Harvey	\N	104
+All the King's Men	\N	109
+"Heiress, The"	\N	115
+Twelve O'Clock High	\N	132
+"Letter to Three Wives, A"	\N	103
+Hamlet	\N	155
+Johnny Belinda	\N	102
+"Treasure of the Sierra Madre, The"	\N	126
+Key Largo	\N	101
+Gentleman's Agreement	\N	118
+"Double Life, A"	\N	104
+"Farmer's Daughter, The"	\N	97
+Miracle on 34th Street	\N	96
+"Best Years of Our Lives, The"	\N	172
+To Each His Own	\N	122
+"Razor's Edge, The"	\N	146
+"Lost Weekend, The"	\N	101
+Mildred Pierce	\N	111
+"Tree Grows in Brooklyn, A"	\N	128
+National Velvet	G	123
+Going My Way	\N	130
+Gaslight	\N	114
+None But the Lonely Heart	\N	113
+Casablanca	PG	102
+Watch on the Rhine	\N	114
+"Song of Bernadette, The"	\N	156
+"More the Merrier, The"	\N	104
+For Whom the Bell Tolls	\N	170
+Mrs. Miniver	\N	134
+Yankee Doodle Dandy	\N	126
+Johnny Eager	\N	107
+How Green Was My Valley	\N	118
+Sergeant York	\N	134
+Suspicion	\N	99
+"Great Lie, The"	\N	108
+Rebecca	\N	130
+"Philadelphia Story, The"	\N	112
+Kitty Foyle: The Natural History of a Woman	\N	108
+"Westerner, The"	\N	100
+"Grapes of Wrath, The"	\N	128
+"Goodbye, Mr. Chips"	\N	114
+Stagecoach	\N	96
+You Can't Take It with You	\N	126
+Boys Town	\N	96
+Jezebel	\N	103
+Kentucky	\N	95
+"Life of Emile Zola, The"	\N	116
+Captains Courageous	\N	115
+"Good Earth, The"	\N	138
+In Old Chicago	\N	96
+"Awful Truth, The"	\N	91
+"Great Ziegfeld, The"	\N	176
+"Story of Louis Pasteur, The"	\N	87
+Come and Get It	\N	99
+Anthony Adverse	\N	141
+Mr. Deeds Goes to Town	\N	115
+Mutiny on the Bounty	\N	132
+"Informer, The"	\N	91
+Dangerous	\N	79
+It Happened One Night	\N	105
+Cavalcade	\N	110
+"Private Life of Henry VIII., The"	\N	97
+Morning Glory	\N	74
+Grand Hotel	\N	112
+"Champ, The"	\N	87
+"Sin of Madelon Claudet, The"	\N	75
+Bad Girl	\N	90
+Cimarron	\N	131
+"Free Soul, A"	\N	91
+Min and Bill	\N	66
+Skippy	\N	85
+"Broadway Melody, The"	\N	110
+In Old Arizona	\N	95
+Coquette	\N	76
+"Divine Lady, The"	\N	99
+Wings	\N	139
+"Last Command, The"	\N	85
+Seventh Heaven	\N	110
+Two Arabian Knights	\N	90
+Crash	\N	113
+Capote	R	114
+Walk the Line	PG-13	136
+Syriana	R	126
+The Constant Gardener	R	129
+Brokeback Mountain	R	134
+The Departed	R	151
+The Last King of Scotland	R	121
+The Queen	PG-13	103
+Little Miss Sunshine	R	101
+Dreamgirls	PG-13	131
+No Country for Old Men	R	122
+There Will Be Blood	R	158
+"Mome, La"	PG-13	140
+Michael Clayton	R	119
+Milk	R	128
+The Reader	R	124
+Vicky Cristina Barcelona	PG-13	96
+Slumdog Millionaire	R	120
+The Hurt Locker	R	131
+Crazy Heart	R	112
+Inglourious Basterds	R	153
+Precious: Based on the Novel Push by Sapphire	R	109
+The Lion in Winter	PG	134
+The King's Speech	R	118
+Black Swan	R	108
+The Fighter	R	116
+The Artist	PG-13	100
+The Iron Lady	PG-13	105
+Beginners	R	105

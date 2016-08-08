@@ -1,0 +1,255 @@
+2007,Alabama,252
+2007,Alaska,259
+2007,Arizona,255
+2007,Arkansas,258
+2007,California,251
+2007,Colorado,266
+2007,Connecticut,267
+2007,Delaware,265
+2007,District of Columbia,241
+2007,Florida,260
+2007,Georgia,259
+2007,Hawaii,251
+2007,Idaho,265
+2007,Illinois,263
+2007,Indiana,264
+2007,Iowa,267
+2007,Kansas,267
+2007,Kentucky,262
+2007,Louisiana,253
+2007,Maine,270
+2007,Maryland,265
+2007,Massachusetts,273
+2007,Michigan,260
+2007,Minnesota,268
+2007,Mississippi,250
+2007,Missouri,263
+2007,Montana,271
+2007,Nebraska,267
+2007,Nevada,252
+2007,New Hampshire,270
+2007,New Jersey,270
+2007,New Mexico,251
+2007,New York,264
+2007,North Carolina,259
+2007,North Dakota,268
+2007,Ohio,268
+2007,Oklahoma,260
+2007,Oregon,266
+2007,Pennsylvania,268
+2007,Rhode Island,258
+2007,South Carolina,257
+2007,South Dakota,270
+2007,Tennessee,259
+2007,Texas,261
+2007,Utah,262
+2007,Vermont,273
+2007,Virginia,267
+2007,Washington,265
+2007,West Virginia,255
+2007,Wisconsin,264
+2007,Wyoming,266
+2005,Alabama,252
+2005,Alaska,259
+2005,Arizona,255
+2005,Arkansas,258
+2005,California,250
+2005,Colorado,265
+2005,Connecticut,264
+2005,Delaware,266
+2005,District of Columbia,238
+2005,Florida,256
+2005,Georgia,257
+2005,Hawaii,249
+2005,Idaho,264
+2005,Illinois,264
+2005,Indiana,261
+2005,Iowa,267
+2005,Kansas,267
+2005,Kentucky,264
+2005,Louisiana,253
+2005,Maine,270
+2005,Maryland,261
+2005,Massachusetts,274
+2005,Michigan,261
+2005,Minnesota,268
+2005,Mississippi,251
+2005,Missouri,265
+2005,Montana,269
+2005,Nebraska,267
+2005,Nevada,253
+2005,New Hampshire,270
+2005,New Jersey,269
+2005,New Mexico,251
+2005,New York,265
+2005,North Carolina,258
+2005,North Dakota,270
+2005,Ohio,267
+2005,Oklahoma,260
+2005,Oregon,263
+2005,Pennsylvania,267
+2005,Rhode Island,261
+2005,South Carolina,257
+2005,South Dakota,269
+2005,Tennessee,259
+2005,Texas,258
+2005,Utah,262
+2005,Vermont,269
+2005,Virginia,268
+2005,Washington,265
+2005,West Virginia,255
+2005,Wisconsin,266
+2005,Wyoming,268
+2003,Alabama,253
+2003,Alaska,256
+2003,Arizona,255
+2003,Arkansas,258
+2003,California,251
+2003,Colorado,268
+2003,Connecticut,267
+2003,Delaware,265
+2003,District of Columbia,239
+2003,Florida,257
+2003,Georgia,258
+2003,Hawaii,251
+2003,Idaho,264
+2003,Illinois,266
+2003,Indiana,265
+2003,Iowa,268
+2003,Kansas,266
+2003,Kentucky,266
+2003,Louisiana,253
+2003,Maine,268
+2003,Maryland,262
+2003,Massachusetts,273
+2003,Michigan,264
+2003,Minnesota,268
+2003,Mississippi,255
+2003,Missouri,267
+2003,Montana,270
+2003,Nebraska,266
+2003,Nevada,252
+2003,New Hampshire,271
+2003,New Jersey,268
+2003,New Mexico,252
+2003,New York,265
+2003,North Carolina,262
+2003,North Dakota,270
+2003,Ohio,267
+2003,Oklahoma,262
+2003,Oregon,264
+2003,Pennsylvania,264
+2003,Rhode Island,261
+2003,South Carolina,258
+2003,South Dakota,270
+2003,Tennessee,258
+2003,Texas,259
+2003,Utah,264
+2003,Vermont,271
+2003,Virginia,268
+2003,Washington,264
+2003,West Virginia,260
+2003,Wisconsin,266
+2003,Wyoming,267
+2002,Alabama,253
+2002,Alaska,-1
+2002,Arizona,257
+2002,Arkansas,260
+2002,California,250
+2002,Colorado,-1
+2002,Connecticut,267
+2002,Delaware,267
+2002,District of Columbia,240
+2002,Florida,261
+2002,Georgia,258
+2002,Hawaii,252
+2002,Idaho,266
+2002,Illinois,-1
+2002,Indiana,265
+2002,Iowa,-1
+2002,Kansas,269
+2002,Kentucky,265
+2002,Louisiana,256
+2002,Maine,270
+2002,Maryland,263
+2002,Massachusetts,271
+2002,Michigan,265
+2002,Minnesota,-1
+2002,Mississippi,255
+2002,Missouri,268
+2002,Montana,270
+2002,Nebraska,270
+2002,Nevada,251
+2002,New Hampshire,-1
+2002,New Jersey,-1
+2002,New Mexico,254
+2002,New York,264
+2002,North Carolina,265
+2002,North Dakota,268
+2002,Ohio,268
+2002,Oklahoma,262
+2002,Oregon,268
+2002,Pennsylvania,265
+2002,Rhode Island,262
+2002,South Carolina,258
+2002,South Dakota,-1
+2002,Tennessee,260
+2002,Texas,262
+2002,Utah,263
+2002,Vermont,272
+2002,Virginia,269
+2002,Washington,268
+2002,West Virginia,264
+2002,Wisconsin,-1
+2002,Wyoming,265
+1998,Alabama,255
+1998,Alaska,-1
+1998,Arizona,260
+1998,Arkansas,256
+1998,California,252
+1998,Colorado,264
+1998,Connecticut,270
+1998,Delaware,254
+1998,District of Columbia,236
+1998,Florida,255
+1998,Georgia,257
+1998,Hawaii,249
+1998,Idaho,-1
+1998,Illinois,-1
+1998,Indiana,-1
+1998,Iowa,-1
+1998,Kansas,268
+1998,Kentucky,262
+1998,Louisiana,252
+1998,Maine,271
+1998,Maryland,261
+1998,Massachusetts,269
+1998,Michigan,-1
+1998,Minnesota,265
+1998,Mississippi,251
+1998,Missouri,262
+1998,Montana,271
+1998,Nebraska,-1
+1998,Nevada,258
+1998,New Hampshire,-1
+1998,New Jersey,-1
+1998,New Mexico,258
+1998,New York,265
+1998,North Carolina,262
+1998,North Dakota,-1
+1998,Ohio,-1
+1998,Oklahoma,265
+1998,Oregon,266
+1998,Pennsylvania,-1
+1998,Rhode Island,264
+1998,South Carolina,255
+1998,South Dakota,-1
+1998,Tennessee,258
+1998,Texas,261
+1998,Utah,263
+1998,Vermont,-1
+1998,Virginia,266
+1998,Washington,264
+1998,West Virginia,262
+1998,Wisconsin,265
+1998,Wyoming,263
